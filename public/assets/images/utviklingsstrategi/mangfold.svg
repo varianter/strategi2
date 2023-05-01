@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="403px" viewBox="0 0 1000 403" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Designmangfold" transform="translate(-636.000000, -425.000000)">
+            <g id="Group" transform="translate(636.000000, 425.000000)">
+                <path d="M275.05558,360.505078 C223.713369,320.554926 168.595508,272.631176 170.027313,207.565421 C171.564015,137.745867 223.160364,80.4539124 282.043459,42.9467089 C341.411984,5.12961591 413.434076,-12.6860123 480.01556,10.1085182 C547.107403,33.0783508 597.38787,90.0865469 618.013512,157.969733 C637.645793,222.581784 624.81133,294.648096 582.448349,347.232659 C544.842437,393.912385 480.699288,400.138615 420.83569,402.723545 C367.659489,405.019427 317.067711,393.195255 275.05558,360.505078 Z" id="Path-Copy-29" fill="#03DAC6"></path>
+                <text id="Mangfold" font-family="Recoleta-Medium, Recoleta" font-size="60" font-weight="400" fill="#333333">
+                    <tspan x="269.82" y="224">Mangfold</tspan>
+                </text>
+                <line x1="636.029214" y1="73" x2="583.284198" y2="73" id="Path-2" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <text id="Stor-faglig-bredde-(" font-family="Graphik-Regular, Graphik" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="662" y="86">Stor faglig bredde (språk, stack, </tspan>
+                    <tspan x="662" y="112">plattformer)</tspan>
+                </text>
+                <text id="En-balansert-kombina" font-family="Graphik-Regular, Graphik" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="0" y="56">En balansert </tspan>
+                    <tspan x="0" y="82">kombinasjon av </tspan>
+                    <tspan x="0" y="108">senioriet</tspan>
+                </text>
+                <text id="Ulike-tilnærminger" font-family="Graphik-Regular, Graphik" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="0" y="376">Ulike tilnærminger</tspan>
+                </text>
+                <text id="Ulik-bakgrunn-og-per" font-family="Graphik-Regular, Graphik" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="719" y="232">Ulik bakgrunn og perspektiver</tspan>
+                </text>
+                <text id="Ulike-interesser" font-family="Graphik-Regular, Graphik" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="662" y="365">Ulike interesser</tspan>
+                </text>
+                <line x1="703.745016" y1="226" x2="651" y2="226" id="Path-2-Copy" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="646.745016" y1="359" x2="594" y2="359" id="Path-2-Copy-2" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="234.745016" y1="48.5" x2="182" y2="48.5" id="Path-2-Copy-4" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="247.745016" y1="361" x2="195" y2="361" id="Path-2-Copy-7" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="902px" height="407px" viewBox="0 0 902 407" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Utvikling" transform="translate(-600.000000, -436.000000)">
+            <g id="Group" transform="translate(600.000000, 436.000000)">
+                <path d="M311.05558,360.505078 C259.713369,320.554926 204.595508,272.631176 206.027313,207.565421 C207.564015,137.745867 259.160364,80.4539124 318.043459,42.9467089 C377.411984,5.12961591 449.434076,-12.6860123 516.01556,10.1085182 C583.107403,33.0783508 633.38787,90.0865469 654.013512,157.969733 C673.645793,222.581784 660.81133,294.648096 618.448349,347.232659 C580.842437,393.912385 516.699288,400.138615 456.83569,402.723545 C403.659489,405.019427 353.067711,393.195255 311.05558,360.505078 Z" id="Path-Copy-29" fill="#03DAC6"></path>
+                <text id="Utvikling" font-family="Recoleta-Medium, Recoleta" font-size="60" font-weight="400" fill="#333333">
+                    <tspan x="327.69" y="224">Utvikling</tspan>
+                </text>
+                <text id="Påvirke-utviklingen" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="687" y="85">Påvirke </tspan>
+                    <tspan x="687" y="111">utviklingen av </tspan>
+                    <tspan x="687" y="137">selskapet</tspan>
+                </text>
+                <text id="Påvirke-rekruttering-Copy" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="64" y="274">Påvirke </tspan>
+                    <tspan x="64" y="300">rekruttering</tspan>
+                </text>
+                <text id="Individuell-faglig-u" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="101" y="34">Individuell faglig </tspan>
+                    <tspan x="101" y="60">utvikling</tspan>
+                </text>
+                <text id="Felles-sparring-og-u" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="0" y="141">Felles sparring </tspan>
+                    <tspan x="0" y="167">og utvikling</tspan>
+                </text>
+                <text id="Påvirke-salg-og-bema" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="754.715802" y="238">Påvirke salg og </tspan>
+                    <tspan x="754.715802" y="264">bemanning</tspan>
+                </text>
+                <text id="Påvirke-kunderelasjo" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="686.715802" y="377">Påvirke </tspan>
+                    <tspan x="686.715802" y="403">kunderelasjon</tspan>
+                </text>
+                <line x1="739.745016" y1="226" x2="687" y2="226" id="Path-2-Copy" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="671.745016" y1="365" x2="619" y2="365" id="Path-2-Copy-2" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="672.029214" y1="73" x2="619.284198" y2="73" id="Path-2" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="330.745016" y1="19" x2="278" y2="19" id="Path-2-Copy-4" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="215.745016" y1="126" x2="163" y2="126" id="Path-2-Copy-5" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="205.745016" y1="259" x2="153" y2="259" id="Path-2-Copy-6" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+            </g>
+        </g>
+    </g>
+</svg>

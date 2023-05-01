@@ -1,0 +1,32 @@
+---
+import { getEntryBySlug } from "astro:content";
+import StrategyLayout from "../../layouts/StrategyLayout.astro";
+const { slug } = Astro.params;
+if (slug === undefined) {
+  return Astro.redirect("/");
+}
+const entry = await getEntryBySlug("strategies", slug);
+if (entry === undefined) {
+  return Astro.redirect("/404");
+}
+const { Content } = await entry.render();
+---
+
+<StrategyLayout title={entry.data.title}>
+  <article
+    class="prose lg:prose-xl prose-img:rounded-xl prose-img:max-w-[90%] prose-img:m-auto prose-img:block"
+  >
+    <header>
+      <h1>{entry.data.title}</h1>
+      {
+        entry.data.authors ? (
+          <p>Kontaktpersoner: {entry.data.authors.join(",")}</p>
+        ) : null
+      }
+    </header>
+
+    <div>
+      <Content />
+    </div>
+  </article>
+</StrategyLayout>

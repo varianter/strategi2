@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="868px" height="566px" viewBox="0 0 868 566" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Designtjenester" transform="translate(-601.000000, -375.000000)">
+            <g id="Group" transform="translate(601.000000, 374.000000)">
+                <path d="M310.05558,422.505078 C258.713369,382.554926 203.595508,334.631176 205.027313,269.565421 C206.564015,199.745867 258.160364,142.453912 317.043459,104.946709 C376.411984,67.1296159 448.434076,49.3139877 515.01556,72.1085182 C582.107403,95.0783508 632.38787,152.086547 653.013512,219.969733 C672.645793,284.581784 659.81133,356.648096 617.448349,409.232659 C579.842437,455.912385 515.699288,462.138615 455.83569,464.723545 C402.659489,467.019427 352.067711,455.195255 310.05558,422.505078 Z" id="Path-Copy-29" fill="#03DAC6"></path>
+                <path d="M539,68.2122432 L568.310569,2 L613.368241,2" id="Path-3" stroke="#E61A6B" stroke-dasharray="6,6"></path>
+                <path d="M312,531.212243 L341.310569,465 L386.368241,465" id="Path-3-Copy-2" stroke="#E61A6B" stroke-dasharray="6,6" transform="translate(349.184120, 498.106122) rotate(-180.000000) translate(-349.184120, -498.106122) "></path>
+                <path d="M322,49.7100122 L332.083635,20 L377.141307,20" id="Path-3-Copy" stroke="#E61A6B" stroke-dasharray="6,6" transform="translate(349.570654, 34.855006) scale(-1, 1) translate(-349.570654, -34.855006) "></path>
+                <path d="M521,494.710012 L531.083635,465 L576.141307,465" id="Path-3-Copy-3" stroke="#E61A6B" stroke-dasharray="6,6" transform="translate(548.570654, 479.855006) scale(-1, 1) rotate(-180.000000) translate(-548.570654, -479.855006) "></path>
+                <text id="Tjeneste-område" font-family="Recoleta-Medium, Recoleta" font-size="60" font-weight="400" fill="#333333">
+                    <tspan x="318.06" y="240">Tjeneste-</tspan>
+                    <tspan x="341.31" y="322">område</tspan>
+                </text>
+                <text id="Rådgivning" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="180" y="29">Rådgivning</tspan>
+                </text>
+                <text id="Skyløsninger" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="739" y="247">Skyløsninger</tspan>
+                </text>
+                <text id="Frontend" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="695" y="147">Frontend</tspan>
+                </text>
+                <text id="Sikkerhet-og-personv" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="718" y="384">Sikkerhet og </tspan>
+                    <tspan x="718" y="410">personvern</tspan>
+                </text>
+                <text id="Universell-utforming" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="591" y="507">Universell utforming</tspan>
+                </text>
+                <text id="Backend" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="621" y="22">Backend</tspan>
+                </text>
+                <text id="Metodikk-og-prosess" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="20" y="167">Metodikk og </tspan>
+                    <tspan x="20" y="193">prosess</tspan>
+                </text>
+                <text id="Arkitektur" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="0" y="404">Arkitektur</tspan>
+                </text>
+                <text id="Kulturbygging-og-tea" font-family="Graphik-Bold, Graphik" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="125" y="537">Kulturbygging og </tspan>
+                    <tspan x="125" y="563">teambygging</tspan>
+                </text>
+                <line x1="216.745016" y1="155" x2="164" y2="155" id="Path-2-Copy-5" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="249.745016" y1="388" x2="197" y2="388" id="Path-2-Copy-4" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="703.745016" y1="378" x2="651" y2="378" id="Path-2-Copy-2" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="724.745016" y1="235" x2="672" y2="235" id="Path-2-Copy" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="680.745016" y1="135" x2="628" y2="135" id="Path-2-Copy-3" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1105px" height="403px" viewBox="0 0 1105 403" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rutiner" transform="translate(-467.000000, -436.000000)">
+            <g id="Group" transform="translate(467.000000, 436.000000)">
+                <path d="M444.05558,360.505078 C392.713369,320.554926 337.595508,272.631176 339.027313,207.565421 C340.564015,137.745867 392.160364,80.4539124 451.043459,42.9467089 C510.411984,5.12961591 582.434076,-12.6860123 649.01556,10.1085182 C716.107403,33.0783508 766.38787,90.0865469 787.013512,157.969733 C806.645793,222.581784 793.81133,294.648096 751.448349,347.232659 C713.842437,393.912385 649.699288,400.138615 589.83569,402.723545 C536.659489,405.019427 486.067711,393.195255 444.05558,360.505078 Z" id="Path-Copy-29" fill="#03DAC6"></path>
+                <text id="Aktiviteter" font-family="Recoleta-Medium, Recoleta" font-size="60" font-weight="400" fill="#333333">
+                    <tspan x="429.33" y="222">Aktiviteter</tspan>
+                </text>
+                <text id="Fagutviklingssesjone" font-family="Graphik-Medium, Graphik" font-size="20" font-weight="400" fill="#000000">
+                    <tspan x="820" y="85">Fagutviklingssesjoner på </tspan>
+                    <tspan x="820" y="111">variantdagene (Månedlig)</tspan>
+                </text>
+                <text id="Spontan-sparring-på" font-family="Graphik-Medium, Graphik" font-size="20" font-weight="400" fill="#000000">
+                    <tspan x="0" y="244">Spontan sparring på tvers </tspan>
+                    <tspan x="0" y="270">av prosjektene</tspan>
+                </text>
+                <text id="Prosjektsparrings--”" font-family="Graphik-Medium, Graphik" font-size="20" font-weight="400" fill="#000000">
+                    <tspan x="93" y="121">Prosjektsparrings- </tspan>
+                    <tspan x="93" y="147">”meetups” (Månedlig)</tspan>
+                </text>
+                <text id="Fagutviklingssamtale" font-family="Graphik-Medium, Graphik" font-size="20" font-weight="400" fill="#000000">
+                    <tspan x="895" y="232">Fagutviklingssamtaler </tspan>
+                    <tspan x="895" y="258">(Årlig) </tspan>
+                </text>
+                <text id="Sparring-på-tvers-av" font-family="Graphik-Medium, Graphik" font-size="20" font-weight="400" fill="#000000">
+                    <tspan x="107" y="355">Sparring på tvers av </tspan>
+                    <tspan x="107" y="381">fagområdene i variant</tspan>
+                </text>
+                <line x1="805.029214" y1="73" x2="752.284198" y2="73" id="Path-2" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="352.745016" y1="104.5" x2="300" y2="104.5" id="Path-2-Copy-4" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="872.745016" y1="226" x2="820" y2="226" id="Path-2-Copy" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="326.745016" y1="234" x2="274" y2="234" id="Path-2-Copy-5" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+                <line x1="405.745016" y1="349" x2="353" y2="349" id="Path-2-Copy-2" stroke="#E61A6B" stroke-dasharray="6,6"></line>
+            </g>
+        </g>
+    </g>
+</svg>
