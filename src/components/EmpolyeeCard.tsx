@@ -12,7 +12,7 @@ export function EmployeeCard({
   officeName,
 }: EmployeeCard) {
   return (
-    <div className="not-prose relative flex bg-slate-50 rounded-lg p-2">
+    <div className="not-prose relative flex bg-slate-50 rounded-lg p-4">
       <div className="flex">
         <img src={imageUrl} alt={name} className="my-auto h-24 w-24" />
 
@@ -21,18 +21,20 @@ export function EmployeeCard({
             {name}
           </h3>
           <p className="not-fancy text-xs lg:text-sm ">
-            <a href={`mailto:${email}`}>{email}</a>
+            <a className="underline" href={`mailto:${email}`}>
+              {email}
+            </a>
           </p>
         </div>
         <div className="absolute  bottom-0 right-0 inline-flex">
           <a
-            className="m-2"
+            className="m-4 hover:opacity-60"
             href={`mailto:${email}`}
             title={`Send email til ${email}`}
           >
             <img
               src="/icons/mail.svg"
-              className="w-6 block max-w-full aspect-square"
+              className="w-4 block max-w-full aspect-square"
               alt="Send email"
             />
           </a>

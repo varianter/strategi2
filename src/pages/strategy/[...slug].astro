@@ -22,8 +22,14 @@ const { Content } = await entry.render();
     <div
       class="prose lg:prose-xl prose-img:max-w-[90%] prose-img:m-auto prose-img:block"
     >
-      <header>
+      <header class="flex flex-col-reverse">
         <h1>{entry.data.title}</h1>
+        <p class="text-center m-8 text-sm text-slate-500">
+          <span>v{entry.data.version}</span> – <time
+            datetime={entry.data.date.toISOString()}
+            >{entry.data.date.toLocaleDateString()}</time
+          >
+        </p>
       </header>
 
       <Content />
@@ -41,6 +47,8 @@ const { Content } = await entry.render();
         </aside>
       )
     }
+
+    <footer></footer>
   </article>
 
   <footer
