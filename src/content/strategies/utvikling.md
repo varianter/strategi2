@@ -1,6 +1,6 @@
 ---
 title: Utviklingsstrategi
-date: 2023-05-01
+date: 2020-06-17
 version: 1.0.0
 authors: [mb@variant.no]
 ---

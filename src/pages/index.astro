@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import StrategyLayout from "../layouts/StrategyLayout.astro";
-const strategies = await getCollection("strategies");
+const strategies = await getCollection("strategies", (e) => !e.data.draft);
 ---
 
 <StrategyLayout title="Strategidokumenter">

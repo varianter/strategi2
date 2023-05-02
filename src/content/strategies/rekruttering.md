@@ -1,6 +1,6 @@
 ---
 title: Rekrutteringsstrategi
-date: 2023-05-01
+date: 2020-05-21
 version: 1.0.0
 authors: [mk@variant.no]
 ---

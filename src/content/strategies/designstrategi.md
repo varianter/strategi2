@@ -1,6 +1,6 @@
 ---
 title: Designstrategi
-date: 2023-05-01
+date: 2020-04-17
 version: 1.0.0
 authors: [te@variant.no]
 ---

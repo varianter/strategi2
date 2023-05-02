@@ -7,6 +7,7 @@ const strategiesCollection = defineCollection({
     version: z.string(),
     authors: z.array(z.string()).optional(),
     icon: z.string().optional(),
+    draft: z.boolean().optional().default(false),
   }),
 });
 
