@@ -4,7 +4,10 @@ import StrategyLayout from "../layouts/StrategyLayout.astro";
 const strategies = await getCollection("strategies", (e) => !e.data.draft);
 ---
 
-<StrategyLayout title="Strategidokumenter">
+<StrategyLayout
+  title="Strategidokumenter"
+  description="Strategidokumenter for Variant."
+>
   <div class="prose prose-sky">
     <h1>Strategidokumenter</h1>
 

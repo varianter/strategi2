@@ -24,7 +24,10 @@ Astro.response.headers.set(
 const { Content } = await entry.render();
 ---
 
-<StrategyLayout title={entry.data.title}>
+<StrategyLayout
+  title={entry.data.title}
+  description={`Strategidokument for Variant: ${entry.data.title}.`}
+>
   <Breadcrumbs
     crumbs={[
       {
