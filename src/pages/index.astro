@@ -1,26 +1,26 @@
 ---
-import Layout from "../layouts/Layout.astro";
-
 import { getCollection } from "astro:content";
 import StrategyLayout from "../layouts/StrategyLayout.astro";
-const blogEntries = await getCollection("strategies");
+const strategies = await getCollection("strategies");
 ---
 
 <StrategyLayout title="Welcome to Astro.">
-  <h1>Strategidokumenter</h1>
+  <div class="prose">
+    <h1>Strategidokumenter</h1>
 
-  <ul>
-    {
-      blogEntries.map((strategy) => (
-        <li>
-          <a href={`/strategy/${strategy.slug}`}>
-            {strategy.data.title} (v{strategy.data.version})
-          </a>
-          <time datetime={strategy.data.date.toISOString()}>
-            {strategy.data.date.toDateString()}
-          </time>
-        </li>
-      ))
-    }
-  </ul>
+    <ul>
+      {
+        strategies.map((strategy) => (
+          <li>
+            <a href={`/strategy/${strategy.slug}`}>
+              {strategy.data.title} (v{strategy.data.version})
+            </a>
+            <time datetime={strategy.data.date.toISOString()}>
+              {strategy.data.date.toDateString()}
+            </time>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
 </StrategyLayout>

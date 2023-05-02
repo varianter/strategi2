@@ -1,0 +1,13 @@
+---
+import { getEmployee } from "../data";
+import { EmployeeCard } from "./EmpolyeeCard";
+
+export interface Props {
+  email: string;
+}
+
+const { email } = Astro.props;
+const employee = await getEmployee(email);
+---
+
+{employee && <EmployeeCard {...employee} />}

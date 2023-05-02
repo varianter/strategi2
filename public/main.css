@@ -98,9 +98,7 @@
 @tailwind utilities;
 
 @layer base {
-  h1,
-  h2,
-  h3 {
+  :where(h1, h2, h3):not(.not-fancy) {
     font-family: Recoleta, ui-serif, Georgia, Cambria, "Times New Roman", Times,
       serif;
   }

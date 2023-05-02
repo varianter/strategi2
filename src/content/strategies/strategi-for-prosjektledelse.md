@@ -2,7 +2,7 @@
 title: Strategi for prosjektledelse
 date: 2023-05-01
 version: 1.0.0
-authors: [oms@variant.no]
+authors: [oms@variant.no, ah@variant.no]
 ---
 
 Vårt formål er å utvikle samfunnet vi lever i, og god prosjektledelse er en av tjenestene som Variant mener er viktig for å oppnå dette.

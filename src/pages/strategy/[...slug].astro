@@ -1,32 +1,64 @@
 ---
 import { getEntryBySlug } from "astro:content";
 import StrategyLayout from "../../layouts/StrategyLayout.astro";
+import Employee from "../../components/Employee.astro";
 const { slug } = Astro.params;
+
 if (slug === undefined) {
   return Astro.redirect("/");
 }
+
 const entry = await getEntryBySlug("strategies", slug);
+
 if (entry === undefined) {
   return Astro.redirect("/404");
 }
+
 const { Content } = await entry.render();
 ---
 
 <StrategyLayout title={entry.data.title}>
-  <article
-    class="prose lg:prose-xl prose-img:rounded-xl prose-img:max-w-[90%] prose-img:m-auto prose-img:block"
-  >
-    <header>
-      <h1>{entry.data.title}</h1>
-      {
-        entry.data.authors ? (
-          <p>Kontaktpersoner: {entry.data.authors.join(",")}</p>
-        ) : null
-      }
-    </header>
+  <article>
+    <div
+      class="prose lg:prose-xl prose-img:max-w-[90%] prose-img:m-auto prose-img:block"
+    >
+      <header>
+        <h1>{entry.data.title}</h1>
+      </header>
 
-    <div>
       <Content />
     </div>
+
+    {
+      entry.data.authors?.length && (
+        <aside class="mt-16">
+          <h2 class="w-full text-2xl mt-2 mb-4">Kontaktpersoner</h2>
+          <div class="grid grid-cols-2 gap-4">
+            {entry.data.authors?.map((mail) => (
+              <Employee email={mail} />
+            ))}
+          </div>
+        </aside>
+      )
+    }
   </article>
+
+  <footer
+    class="mt-32 flex items-center justify-center flex-col bg-slate-100 p-8"
+  >
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <img
+        alt="Creative Commons License"
+        src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+      />
+    </a>
+    <div class="prose text-center">
+      <p class="text-sm">Innhold lisensiert som CC-BY SA 4.0.</p>
+      <p class="text-sm">
+        <a href="https://github.com/varianter/strategi2"
+          >Se kildekode på Github</a
+        >.
+      </p>
+    </div>
+  </footer>
 </StrategyLayout>
