@@ -1,20 +1,21 @@
-type EmployeeCard = {
+import type { PropsWithChildren } from "react";
+
+type EmployeeCard = PropsWithChildren<{
   imageUrl: string;
   name: string;
   email: string;
-  officeName: string;
-};
+}>;
 
 export function EmployeeCard({
   name,
   email,
   imageUrl,
-  officeName,
+  children,
 }: EmployeeCard) {
   return (
     <div className="not-prose relative flex bg-slate-50 rounded-lg p-4">
       <div className="flex">
-        <img src={imageUrl} alt={name} className="my-auto h-24 w-24" />
+        {children}
 
         <div className="my-auto p-3">
           <h3 className="not-fancy font-semibold text-lg sm:text-sm lg:text-lg ">

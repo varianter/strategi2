@@ -1,4 +1,5 @@
 ---
+import { Picture } from "@astrojs/image/components";
 import { getEmployee } from "../data";
 import { EmployeeCard } from "./EmpolyeeCard";
 
@@ -10,4 +11,17 @@ const { email } = Astro.props;
 const employee = await getEmployee(email);
 ---
 
-{employee && <EmployeeCard {...employee} />}
+{
+  employee && (
+    <EmployeeCard {...employee}>
+      <Picture
+        src={employee.imageUrl}
+        alt={employee.name}
+        widths={[200]}
+        aspectRatio="1:1"
+        formats={["avif", "png"]}
+        class="my-auto h-24 w-24"
+      />
+    </EmployeeCard>
+  )
+}
