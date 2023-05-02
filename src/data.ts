@@ -14,8 +14,9 @@ const employeeDto = z.object({
 type EmployeeDto = z.infer<typeof employeeDto>;
 
 export async function getEmployee(email: string): Promise<EmployeeDto | null> {
+  const [alias, country] = extractUserInfo(email);
   const response = await fetch(
-    `${BASE_URL}/employees/no/${email.split("@")[0]}`
+    `${BASE_URL}/employees/${alias}?country=${country}`
   );
   if (!response.ok) return null;
   const data = await response.json();
@@ -24,4 +25,9 @@ export async function getEmployee(email: string): Promise<EmployeeDto | null> {
     return parsed.data;
   }
   return null;
+}
+
+function extractUserInfo(email: string): [alias: string, country: string] {
+  const [alias, country] = email.split("@variant.");
+  return [alias, country];
 }
