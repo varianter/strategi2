@@ -1,6 +1,7 @@
 ---
 title: Formål og verdier
 date: 2020-05-21
+order: 1
 version: 1.0.0
 authors: [oms@variant.no]
 ---

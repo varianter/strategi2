@@ -10,18 +10,20 @@ const strategies = await getCollection("strategies", (e) => !e.data.draft);
 
     <ul>
       {
-        strategies.map((strategy) => (
-          <li>
-            <h3 class="not-fancy m-0">
-              <a href={`/strategy/${strategy.slug}`}>
-                {strategy.data.title} (v{strategy.data.version})
-              </a>
-            </h3>
-            <time datetime={strategy.data.date.toISOString()}>
-              {strategy.data.date.toLocaleDateString()}
-            </time>
-          </li>
-        ))
+        strategies
+          .sort((a, b) => a.data.order - b.data.order)
+          .map((strategy) => (
+            <li>
+              <h3 class="not-fancy m-0">
+                <a href={`/strategy/${strategy.slug}`}>
+                  {strategy.data.title} (v{strategy.data.version})
+                </a>
+              </h3>
+              <time datetime={strategy.data.date.toISOString()}>
+                {strategy.data.date.toLocaleDateString()}
+              </time>
+            </li>
+          ))
       }
     </ul>
   </div>

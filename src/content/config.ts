@@ -5,6 +5,7 @@ const strategiesCollection = defineCollection({
     title: z.string(),
     date: z.date(),
     version: z.string(),
+    order: z.number().optional().default(2),
     authors: z.array(z.string()).optional(),
     icon: z.string().optional(),
     draft: z.boolean().optional().default(false),

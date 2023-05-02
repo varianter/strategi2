@@ -2,6 +2,7 @@
 import { getEntryBySlug } from "astro:content";
 import StrategyLayout from "../../layouts/StrategyLayout.astro";
 import Employee from "../../components/Employee.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
 const { slug } = Astro.params;
 
 if (slug === undefined) {
@@ -24,6 +25,14 @@ const { Content } = await entry.render();
 ---
 
 <StrategyLayout title={entry.data.title}>
+  <Breadcrumbs
+    crumbs={[
+      {
+        name: entry.data.title,
+      },
+    ]}
+  />
+
   <article>
     <div
       class="prose lg:prose-xl prose-img:max-w-[90%] prose-img:m-auto prose-img:block"
