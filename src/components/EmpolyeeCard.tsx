@@ -1,19 +1,13 @@
 import type { PropsWithChildren } from "react";
 
 type EmployeeCard = PropsWithChildren<{
-  imageUrl: string;
   name: string;
   email: string;
 }>;
 
-export function EmployeeCard({
-  name,
-  email,
-  imageUrl,
-  children,
-}: EmployeeCard) {
+export function EmployeeCard({ name, email, children }: EmployeeCard) {
   return (
-    <div className="not-prose relative flex bg-slate-50 rounded-lg p-4">
+    <div className="not-prose relative flex bg-slate-50 rounded-lg p-4 min-w-min">
       <div className="flex">
         {children}
 

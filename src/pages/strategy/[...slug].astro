@@ -45,7 +45,7 @@ const { Content } = await entry.render();
       entry.data.authors?.length && (
         <aside class="mt-16">
           <h2 class="w-full text-2xl mt-2 mb-4">Kontaktpersoner</h2>
-          <div class="grid grid-cols-2 gap-4">
+          <div class="grid grid-cols-1 justify-stretch gap-4 md:grid-cols-2">
             {entry.data.authors?.map((mail) => (
               <Employee email={mail} />
             ))}
