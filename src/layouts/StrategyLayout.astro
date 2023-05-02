@@ -16,9 +16,13 @@ const { title } = Astro.props;
     <title>{title} - Variant</title>
   </head>
   <body>
-    <div class="absolute top-0 right-0">
-      <a href="https://www.variant.no" class="hover:opacity-80"
-        ><img src="/assets/images/logo.svg" alt="Variant" /></a
+    <div class="max-w-prose mx-auto flex justify-center p-8">
+      <a href="https://www.variant.no" class="block hover:opacity-80"
+        ><img
+          class="block max-w-[8rem]"
+          src="/assets/images/variant_farge.svg"
+          alt="Variant"
+        /></a
       >
     </div>
     <main class="max-w-prose prose-sky box-content mx-auto p-8">
