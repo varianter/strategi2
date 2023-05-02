@@ -1,4 +1,5 @@
 import type { PropsWithChildren } from "react";
+import Mail from "./icons/Mail";
 
 type EmployeeCard = PropsWithChildren<{
   name: string;
@@ -23,15 +24,11 @@ export function EmployeeCard({ name, email, children }: EmployeeCard) {
         </div>
         <div className="absolute  bottom-0 right-0 inline-flex">
           <a
-            className="m-4 hover:opacity-60"
+            className="m-4 text-gray-700 hover:text-gray-500 active:scale-95"
             href={`mailto:${email}`}
             title={`Send email til ${email}`}
           >
-            <img
-              src="/icons/mail.svg"
-              className="w-4 block max-w-full aspect-square"
-              alt="Send email"
-            />
+            <Mail />
           </a>
         </div>
       </div>
