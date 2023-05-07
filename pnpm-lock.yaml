@@ -42,6 +42,9 @@ devDependencies:
   '@tailwindcss/typography':
     specifier: ^0.5.9
     version: 0.5.9(tailwindcss@3.3.2)
+  '@variant/prettier-config':
+    specifier: ^1.0.2
+    version: 1.0.2
 
 packages:
 
@@ -865,6 +868,10 @@ packages:
   /@types/yargs-parser@21.0.0:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
     dev: false
+
+  /@variant/prettier-config@1.0.2:
+    resolution: {integrity: sha512-T40VWuZefjfPgiemVM4M31N9ATQQ8YhyhFjP1QYqNeza7Ipebc6AIT5k3GmKS7Lq3CZv0Qey4xWJhoLawHdRuA==}
+    dev: true
 
   /@vercel/analytics@0.1.11(react@18.2.0):
     resolution: {integrity: sha512-mj5CPR02y0BRs1tN3oZcBNAX9a8NxsIUl9vElDPcqxnMfP0RbRc9fI9Ud7+QDg/1Izvt5uMumsr+6YsmVHcyuw==}
