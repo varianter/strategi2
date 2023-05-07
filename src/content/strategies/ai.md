@@ -52,4 +52,16 @@ omstille seg.
 ### Kompetansebygging
 
 Praktisk erfarting er nøkkelord. Det vil bygge viktig og relevant kompetanse og
-det
+det krever at hver og enkelt av oss gjør en innsats. Vi skal bygge kompetanse på
+følgende måte:
+
+1. Utforske og teste ut nye verktøy og modeller som kommer.
+2. Gjennomføre test-caser på trening av modeller selv.
+3. Samarbeide med kunder for proof of concepts, prototyper og relle
+   implementasjoner hvor mulig.
+4. Aktiv delingskultur på lærdommer, erfaringer og lesestoff via Slack,
+   bloggposter, etc.
+
+Som et kompetansehus er det spesielt viktig at vi her bygger reelle erfaringer
+som stikker dypere enn overfladisk kunnskap. Vi må teste ut og få praktiske
+erfaringer.
