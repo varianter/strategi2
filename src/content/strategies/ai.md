@@ -6,4 +6,5 @@ draft: true
 authors: [mb@variant.no]
 ---
 
-TBA
+Dette dokumentet beskriver hvordan Variant skal forholde seg til AI og LLMs som
+verktøy, mulighet for kunder og i arbeidshverdagen.
