@@ -15,8 +15,8 @@ Dokumentet skal kunne brukes for å avdekke hva som er innenfor og hva som er
 utenfor både internt i Variant og eksternt ute hos kunder.
 
 **Variant skal være best-in-class med bruk av AI**. Ikke bare være gode på å
-bruke AI, men bruke AI _korrekt_. Det å bruke AI korrekt innebærer at vi alltid
-tar hensyn til noen nøkkelfaktorer:
+bruke AI, men bruke AI _korrekt_ og _etisk korrekt_. Det å bruke AI korrekt
+innebærer at vi alltid tar hensyn til noen nøkkelfaktorer:
 
 - Personvern
 - Kulturell- og likestillingsmessig forutinntatthet.
@@ -115,9 +115,9 @@ kjøreregler som må tenkes på.
    verifiseres og sikres for at det ikke inneholder feil, sikkerhetshull og
    gir/viser faktisk ønsket effekt.
 3. Ikke send inn personinformasjon til eksterne verktøy du ikke har kontroll på.
-4. Aldri ta kode direkte. Det kan være underlagt lisenser som en ikke har
-   kontroll på. Bruk output som inspirasjon og læring.
-5. Heller ikke bruk tekst som blir returnert direkte. Noe tekst gir tydelige
+4. Vær kritisk til autocompletions fra AI i kode. Vær sikker på at du forstår og
+   at eventuelle lisenser ikke blir brutt.
+5. Heller ikke bruk tekst som blir returnert ukritisk. Noe tekst gir tydelige
    ChatGPT-mønster og det kan fremstår uprofesjonelt dersom det blir brukt i
    offisielle tekster.
 6. Aldri ta det ChatGPT og andre LLMs som en fasit. Det er språkmodeller som
@@ -125,6 +125,18 @@ kjøreregler som må tenkes på.
    ofte misvisende.
 7. AI modeller har ofte innebygget forutinntatthet. Alt som returneres må tenkes
    på kritisk for å vekte mot innebygget bias mot enkelte kulturer, kjønn etc.
+
+### Gjør
+
+Dersom du bruker AI-verktøy aktiv til arbeid er det noe du kan utgiftsføre.
+Dette gjelder som alle verktøy i Variant. Se på mulighet om det er
+hensiktsmessig at kunder har eierskap for verktøyet for lettere å ha det likt
+for alle i teamet og for å bygge kultur i det.
+
+1. Dersom gratis Copilot brukes må du slå av innsending av input og blokkere
+   lisensiert innhold. Vurder Github for Business for kunde og team.
+2. Test ut bruk av Tabnine og andre lokale verktøy og se om det fungerer bra for
+   ditt prosjekt.
 
 ## Fremtiden for kunder
 
