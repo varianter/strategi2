@@ -9,7 +9,7 @@ authors: [mb@variant.no]
 Dette dokumentet beskriver hvordan Variant skal forholde seg til AI og
 språkmodeller (LLMs) som verktøy, mulighet for kunder og i arbeidshverdagen.
 Hensikten med dokumentet er å veilede konsulenter i Variant å ta korrekte valg
-for bruk av AI som ivaretar kunders interesser, lover, forutinntatthet men også
+for bruk av AI som ivaretar kunders interesser, lover, forutinntatthet, men også
 sikrer at vi bruker verktøyet til å skape den verdien det har potensialet til.
 Dokumentet skal kunne brukes for å avdekke hva som er innenfor og hva som er
 utenfor både internt i Variant og eksternt ute hos kunder.
@@ -72,7 +72,7 @@ følgende måte:
    1. ChatGPT for inspirasjon og sparring på løsninger.
    2. Midjourney og DALL-E til presentasjoner, demoer, bloggposter, etc.
 2. Gjennomføre test-caser på trening av modeller selv.
-3. Samarbeide med kunder for proof of concepts, prototyper og relle
+3. Samarbeide med kunder for proof of concepts, prototyper og reelle
    implementasjoner hvor mulig.
 4. Aktiv delingskultur på lærdommer, erfaringer og lesestoff via Slack,
    bloggposter, etc.
@@ -94,7 +94,7 @@ løsninger over tid. Løsninger som skal utforskes er:
 
 ## Kundeinvolvering
 
-Vi skal kontinuerlig identifisere kundecaser og samarbeidscaser hvor det er
+Vi skal kontinuerlig identifisere kunde caser og samarbeidscaser hvor det er
 naturlig å bruke AI. Her skal Variant kunne være samarbeidspartner for kunder
 som ønsker å gå i front.
 
@@ -118,10 +118,10 @@ kjøreregler som må tenkes på.
 4. Aldri ta kode direkte. Det kan være underlagt lisenser som en ikke har
    kontroll på. Bruk output som inspirasjon og læring.
 5. Heller ikke bruk tekst som blir returnert direkte. Noe tekst gir tydelige
-   ChatGPT-mønster og det kan fremstår uproffesjonelt dersom det blir brukt i
+   ChatGPT-mønster og det kan fremstår uprofesjonelt dersom det blir brukt i
    offisielle tekster.
 6. Aldri ta det ChatGPT og andre LLMs som en fasit. Det er språkmodeller som
-   ikke vet hva den skriver. Det gir ofte gode resultater men det er også like
+   ikke vet hva den skriver. Det gir ofte gode resultater, men det er også like
    ofte misvisende.
 7. AI modeller har ofte innebygget forutinntatthet. Alt som returneres må tenkes
    på kritisk for å vekte mot innebygget bias mot enkelte kulturer, kjønn etc.
@@ -133,8 +133,8 @@ sikker måte. For sikker måte betyr det at vi:
 
 1. Ikke lekker kundeinformasjon eller sensitiv data.
 2. Ivaretar kunders åndsverk.
-3. Ikke bryter med kunders policy for lisenser (eksempelvis inkluderer copyleft
-   lisensiert innhold uten å vite om det.)
+3. Ikke bryter med kunders policy for lisenser (eksempelvis inkluderer
+   «copyleft» lisensiert innhold uten å vite om det.)
 4. Som ikke er feilaktig eller unyansert.
 
 Ved å gå i front på ikke bare bruk av AI, men bruk av AI på en korrekt og trygg
