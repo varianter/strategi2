@@ -12,7 +12,20 @@ Hensikten med dokumentet er å veilede konsulenter i Variant å ta korrekte valg
 for bruk av AI som ivaretar kunders interesser, lover, forutinntatthet men også
 sikrer at vi bruker verktøyet til å skape den verdien det har potensialet til.
 Dokumentet skal kunne brukes for å avdekke hva som er innenfor og hva som er
-utenfor både internt i Variant og eksternt ute hos kunde.
+utenfor både internt i Variant og eksternt ute hos kunder.
+
+**Variant skal være best-in-class med bruk av AI**. Ikke bare være gode på å
+bruke AI, men bruke AI _korrekt_. Det å bruke AI korrekt innebærer at vi alltid
+tar hensyn til noen nøkkelfaktorer:
+
+- Personvern
+- Kulturell- og likestillingsmessig forutinntatthet.
+- Sikkerhet
+- Lisenser
+- Åndsverk
+
+Mest av alt skal vi være best-in-class med å aktivt bygge god kompetanse.
+Kompetanse om praktisk bruk og identifisere muligheter det gir oss og kunder.
 
 ## Bruk av AI oppfordret
 
@@ -111,7 +124,7 @@ kjøreregler som må tenkes på.
    ikke vet hva den skriver. Det gir ofte gode resultater men det er også like
    ofte misvisende.
 7. AI modeller har ofte innebygget forutinntatthet. Alt som returneres må tenkes
-   på kritisk for å vekte mot innebygget bias.
+   på kritisk for å vekte mot innebygget bias mot enkelte kulturer, kjønn etc.
 
 ## Fremtiden for kunder
 
