@@ -7,8 +7,8 @@ authors: [mb@variant.no]
 ---
 
 Dette dokumentet beskriver hvordan Variant skal forholde seg til AI og
-språkmodeller (LLMs) som verktøy, mulighet for kunder og i arbeidshverdagen.
-Hensikten med dokumentet er å veilede konsulenter i Variant å ta korrekte valg
+språkmodeller (LLMs) som verktøy, som mulighet for kunder og i arbeidshverdagen.
+Hensikten med dokumentet er å veilede konsulenter i Variant til å ta korrekte valg
 for bruk av AI som ivaretar kunders interesser, lover, forutinntatthet, men også
 sikrer at vi bruker verktøyet til å skape den verdien det har potensialet til.
 Dokumentet skal kunne brukes for å avdekke hva som er innenfor og hva som er
@@ -27,7 +27,7 @@ innebærer at vi alltid tar hensyn til noen nøkkelfaktorer:
 Mest av alt skal vi være best-in-class med å aktivt bygge god kompetanse.
 Kompetanse om praktisk bruk og identifisere muligheter det gir oss og kunder.
 
-## Bruk av AI oppfordret
+## Bruk av AI er oppfordret
 
 AI er et verktøy som utvikler seg raskere og blir mer og mer tilgjengelig, i
 langt større grad enn det var mulig å se for seg. Selv om AI ikke kommer til å
@@ -42,14 +42,14 @@ Alle konsulenter i Variant burde lære seg bruk av AI og språkmodeller på ulik
 måter:
 
 1. **Bruk av AI som verktøy for daglige oppgaver**. Herunder ting som GPT,
-   bildegenerering med DALL-E, Midjourny og lignende tjenester. Dette er viktig
-   å kunne bruke som støtte i hverdagen og vil kunne gi godt innspill og
+   bildegenerering med DALL-E, Midjourney og lignende tjenester. Disse er nyttige
+   å kunne bruke som støtte i hverdagen og vil kunne gi gode innspill og
    inspirasjon hvor det ellers kan være vanskelig å få tak i.
 2. **Bruk av AI for å identifisere nye muligheter ute hos kunde**. AI og
-   spesielt språkmodeller som LLM kan gi store gevinster som grensesnitt og
+   spesielt språkmodeller kan gi store gevinster som grensesnitt og
    verktøy for kunden. Vi som konsulenter må henge med på utviklingen for å
    lettere kunne identifisere nye områder hvor det kan gi verdi for kunden å ta
-   i bruk AI som teknologi. Dette kan være som grensesnitt for konsumering,
+   i bruk AI som teknologi. Dette kan være som grensesnitt for konsumering av innhold,
    interne analyse verktøy, eller prosessering og syntisering av data. For å
    kunne komme med anbefalinger og ta i bruk dette som verktøy krever det at vi
    følger med på utviklingen.
@@ -64,7 +64,7 @@ omstille seg.
 
 ### Kompetansebygging
 
-Praktisk erfarting er nøkkelord. Det vil bygge viktig og relevant kompetanse og
+Praktisk erfaring er nøkkelord. Det vil bygge viktig og relevant kompetanse og
 det krever at hver og enkelt av oss gjør en innsats. Vi skal bygge kompetanse på
 følgende måte:
 
@@ -77,7 +77,7 @@ følgende måte:
 4. Aktiv delingskultur på lærdommer, erfaringer og lesestoff via Slack,
    bloggposter, etc.
 
-Som et kompetansehus er det spesielt viktig at vi her bygger reelle erfaringer
+Som et kompetansehus er det spesielt viktig at vi bygger reelle erfaringer
 som stikker dypere enn overfladisk kunnskap. Vi må teste ut og få praktiske
 erfaringer.
 
@@ -94,7 +94,7 @@ løsninger over tid. Løsninger som skal utforskes er:
 
 ## Kundeinvolvering
 
-Vi skal kontinuerlig identifisere kunde caser og samarbeidscaser hvor det er
+Vi skal kontinuerlig identifisere kundecaser og samarbeidscaser hvor det er
 naturlig å bruke AI. Her skal Variant kunne være samarbeidspartner for kunder
 som ønsker å gå i front.
 
@@ -140,7 +140,7 @@ for alle i teamet og for å bygge kultur i det.
 
 ## Fremtiden for kunder
 
-Variant skal utforske nye muligheter å bruke AI med kunder som gjøres på en
+Variant skal utforske nye muligheter for å bruke AI med kunder som gjøres på en
 sikker måte. For sikker måte betyr det at vi:
 
 1. Ikke lekker kundeinformasjon eller sensitiv data.
