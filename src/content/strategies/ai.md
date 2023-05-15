@@ -1,17 +1,18 @@
 ---
 title: AI-strategi
 date: 2023-05-01
-version: 1.0.0
+lastChangedDate: 2023-05-15
+version: 1.1.0
 authors: [mb@variant.no]
 ---
 
 Dette dokumentet beskriver hvordan Variant skal forholde seg til AI og
 språkmodeller (LLMs) som verktøy, som mulighet for kunder og i arbeidshverdagen.
-Hensikten med dokumentet er å veilede konsulenter i Variant til å ta korrekte valg
-for bruk av AI som ivaretar kunders interesser, lover, forutinntatthet, men også
-sikrer at vi bruker verktøyet til å skape den verdien det har potensialet til.
-Dokumentet skal kunne brukes for å avdekke hva som er innenfor og hva som er
-utenfor både internt i Variant og eksternt ute hos kunder.
+Hensikten med dokumentet er å veilede konsulenter i Variant til å ta korrekte
+valg for bruk av AI som ivaretar kunders interesser, lover, forutinntatthet, men
+også sikrer at vi bruker verktøyet til å skape den verdien det har potensialet
+til. Dokumentet skal kunne brukes for å avdekke hva som er innenfor og hva som
+er utenfor både internt i Variant og eksternt ute hos kunder.
 
 **Variant skal være best-in-class med bruk av AI**. Ikke bare være gode på å
 bruke AI, men bruke AI _korrekt_ og _etisk korrekt_. Det å bruke AI korrekt
@@ -41,17 +42,17 @@ Alle konsulenter i Variant burde lære seg bruk av AI og språkmodeller på ulik
 måter:
 
 1. **Bruk av AI som verktøy for daglige oppgaver**. Herunder ting som GPT,
-   bildegenerering med DALL-E, Midjourney og lignende tjenester. Disse er nyttige
-   å kunne bruke som støtte i hverdagen og vil kunne gi gode innspill og
+   bildegenerering med DALL-E, Midjourney og lignende tjenester. Disse er
+   nyttige å kunne bruke som støtte i hverdagen og vil kunne gi gode innspill og
    inspirasjon hvor det ellers kan være vanskelig å få tak i.
 2. **Bruk av AI for å identifisere nye muligheter ute hos kunde**. AI og
-   spesielt språkmodeller kan gi store gevinster som grensesnitt og
-   verktøy for kunden. Vi som konsulenter må henge med på utviklingen for å
-   lettere kunne identifisere nye områder hvor det kan gi verdi for kunden å ta
-   i bruk AI som teknologi. Dette kan være som grensesnitt for konsumering av innhold,
-   interne analyse verktøy, eller prosessering og syntisering av data. For å
-   kunne komme med anbefalinger og ta i bruk dette som verktøy krever det at vi
-   følger med på utviklingen.
+   spesielt språkmodeller kan gi store gevinster som grensesnitt og verktøy for
+   kunden. Vi som konsulenter må henge med på utviklingen for å lettere kunne
+   identifisere nye områder hvor det kan gi verdi for kunden å ta i bruk AI som
+   teknologi. Dette kan være som grensesnitt for konsumering av innhold, interne
+   analyse verktøy, eller prosessering og syntisering av data. For å kunne komme
+   med anbefalinger og ta i bruk dette som verktøy krever det at vi følger med
+   på utviklingen.
 
 Begge disse områdene forutsetter at vi jobber og får praktiske erfaringer med
 bruk av AI. Både som konsumenter og produsenter. Det krever at vi følger med på
@@ -76,8 +77,8 @@ følgende måte:
 4. Aktiv delingskultur på lærdommer, erfaringer og lesestoff via Slack,
    bloggposter, etc.
 
-Som et kompetansehus er det spesielt viktig at vi bygger reelle erfaringer
-som stikker dypere enn overfladisk kunnskap. Vi må teste ut og få praktiske
+Som et kompetansehus er det spesielt viktig at vi bygger reelle erfaringer som
+stikker dypere enn overfladisk kunnskap. Vi må teste ut og få praktiske
 erfaringer.
 
 ### Utforsking i Variant
@@ -151,3 +152,15 @@ sikker måte. For sikker måte betyr det at vi:
 Ved å gå i front på ikke bare bruk av AI, men bruk av AI på en korrekt og trygg
 måte vil vi kunne få kompetanse og produktivitetsfordeler og jobbe med en ny
 hverdag hvor AI blir en integrert del av arbeidshverdagen og kundeinvolvering.
+
+## Miljøhensyn
+
+LLMs og trening av store modeller er intensive oppgaver og er krevende
+datakraftmessig. Det betyr også at det har stor negativ påvirkning for miljø og
+redusering av kraft som vi er interessert i. Dette betyr at vi må jobbe for å
+finne gode og fornuftige måter å bruke AI på. Så selv om vi må jobbe med å
+identifisere hvor det kan bringe verdi og bygge kompetanse på det, må vi ta
+hensyn til å ikke bruke det i unødvendig grad. Dette vil være enda viktigere for
+fremtidsbruk om det er snakk om trening av stor data selv. Vi må vurdere hvilken
+påvirkning AI har til eksisterende miljøtiltak vi vi jobber med og ta inn det i
+beregninger vi gjør ellers.
