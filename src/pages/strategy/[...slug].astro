@@ -1,24 +1,24 @@
 ---
-import { getEntryBySlug } from "astro:content";
-import StrategyLayout from "../../layouts/StrategyLayout.astro";
-import Employee from "../../components/Employee.astro";
-import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { getEntryBySlug } from 'astro:content';
+import StrategyLayout from '../../layouts/StrategyLayout.astro';
+import Employee from '../../components/Employee.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 const { slug } = Astro.params;
 
 if (slug === undefined) {
-  return Astro.redirect("/");
+  return Astro.redirect('/');
 }
 
-const entry = await getEntryBySlug("strategies", slug);
+const entry = await getEntryBySlug('strategies', slug);
 
 if (entry === undefined) {
-  return Astro.redirect("/404");
+  return Astro.redirect('/404');
 }
 
 // Add basic output cache
 Astro.response.headers.set(
-  "Cache-Control",
-  "max-age=86400, stale-while-revalidate=86400"
+  'Cache-Control',
+  'max-age=86400, stale-while-revalidate=86400',
 );
 
 const { Content } = await entry.render();
@@ -46,7 +46,20 @@ const { Content } = await entry.render();
           <span>v{entry.data.version}</span> – <time
             datetime={entry.data.date.toISOString()}
             >{entry.data.date.toLocaleDateString()}</time
-          >
+          >{
+            entry.data.lastChangeDate && (
+              <>
+                <br />
+                <small>
+                  (Sist endret
+                  <time datetime={entry.data.lastChangeDate.toISOString()}>
+                    {entry.data.lastChangeDate.toLocaleDateString()}
+                  </time>
+                  )
+                </small>
+              </>
+            )
+          }
         </p>
       </header>
 

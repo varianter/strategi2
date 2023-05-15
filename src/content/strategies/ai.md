@@ -1,7 +1,7 @@
 ---
 title: AI-strategi
 date: 2023-05-01
-lastChangedDate: 2023-05-15
+lastChangeDate: 2023-05-15
 version: 1.1.0
 authors: [mb@variant.no]
 ---
