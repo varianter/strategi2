@@ -1,8 +1,8 @@
 ---
 title: AI-strategi
 date: 2023-05-01
-lastChangeDate: 2023-05-15
-version: 1.1.0
+lastChangeDate: 2023-06-26
+version: 1.1.1
 authors: [mb@variant.no]
 ---
 
@@ -118,7 +118,7 @@ kjøreregler som må tenkes på.
 4. Vær kritisk til autocompletions fra AI i kode. Vær sikker på at du forstår og
    at eventuelle lisenser ikke blir brutt.
 5. Heller ikke bruk tekst som blir returnert ukritisk. Noe tekst gir tydelige
-   ChatGPT-mønster og det kan fremstår uprofesjonelt dersom det blir brukt i
+   ChatGPT-mønster og det kan fremstå som uprofesjonelt dersom det blir brukt i
    offisielle tekster.
 6. Aldri ta det ChatGPT og andre LLMs som en fasit. Det er språkmodeller som
    ikke vet hva den skriver. Det gir ofte gode resultater, men det er også like
