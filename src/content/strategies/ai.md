@@ -1,8 +1,8 @@
 ---
 title: AI-strategi
 date: 2023-05-01
-lastChangeDate: 2023-06-26
-version: 1.1.1
+lastChangeDate: 2023-08-03
+version: 1.2.1
 authors: [mb@variant.no]
 ---
 
@@ -90,7 +90,7 @@ løsninger over tid. Løsninger som skal utforskes er:
 - Håndbok
 - CV-baser (privat)
 - Salgsdokumenter (privat)
-- Kunde sandboxes (privat)
+- Kunde-sandboxes (privat)
 
 ## Kundeinvolvering
 
@@ -137,6 +137,9 @@ for alle i teamet og for å bygge kultur i det.
    lisensiert innhold. Vurder Github for Business for kunde og team.
 2. Test ut bruk av Tabnine og andre lokale verktøy og se om det fungerer bra for
    ditt prosjekt.
+3. Bruk https://variant.rocks som alternativ til ChatGPT. Bruk av variant.rocks
+   ivaretar personvern i tilsvarende grad som Variant Docs og sporer ikke input
+   eller output.
 
 ## Fremtiden for kunder
 
